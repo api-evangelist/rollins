@@ -26,6 +26,10 @@ apis:
     description: >-
       The Rollins API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: DomainSecurity
+    url: security/rollins-domain-security.yml
+  - url: https://www.rollins.com/investors/press-releases/rss
+    type: Blog
   - type: Website
     url: https://www.rollins.com
 maintainers:
